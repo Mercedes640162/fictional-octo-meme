@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> My Biography</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1><em>Mercedes Alvarado</em></h1>
+        <img src="https://tse4.mm.bing.net/th?id=OIP.A3J49KaCusfXhfeAoxY6hgHaE6&pid=Api&P=0&h=180"
+            alt="Accessibility Logo" width="600" height="173">
+        <p>A glimpse into who I am as not only an Accessibility Analyst, but an up and coming Data Analyst...</p>
+    </header>
+
+    <nav>
+        <a href="#">Introduction</a>
+        <a href="#">Background and Education</a>
+        <a href="#">Expertise</a>
+        <a href="#">Professional Interest</a>
+    </nav>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>My name is <strong><em>Mercedes Alvarado</em></strong>, and I am a Accessibility Analyst with a strong
+            desire to break into the tech field. I thrive on challenges and am open to exploring different
+            paths.<br><br>Currently, while excelling in my role as an Accessibility Analyst, <strong><em>Data
+                    Analysis</em></strong> has captured my attention and is calling me to delve deeper into its
+            intricacies and possibilites.</p>
+
+        <h2>Background and Education</h2>
+        <ul>
+            <li><strong>DHS Trusted Tester Certification</strong> from <strong>The Department of Homeland
+                    Security</strong></li>
+        </ul>
+
+        <h2>Expertise</h2>
+        <ul>
+            <li>Document Remediation</li>
+            <li>Adobe Acrobat</li>
+            <li>Microsoft Office Suites</li>
+            <li>Quality Assurance</li>
+        </ul>
+
+        <h2>Professional Interest</h2>
+        <p>As an experienced <strong><em>Accessibility Analyst</em></strong>, specializing in Document and Website
+            Remediation, I've honed my skills over several years in this field.<br><br> Throughout my professional
+            journey, I've extensively utilized Python to conduct comprehensive audits and implement remediation
+            strategies, ensuring websites adhere to the stringent standards set by Section 508 and WCAG guidelines.
+            <br><br>My commitment to accessibility drives me to continuously seek innovative solutions that enhance
+            digital inclusivity and user experience.</p>
+
+        <h2>Personal Interest and Hobbies</h2>
+        <p>While I am currently immersed in learning coding, especially Python, my curiosity transcends
+            programming. <br><br>I thoroughly enjoy exploring diverse subjects and expanding my knowledge base with a
+            genuine passion for continuous learning.</p>
+
+        <div class="dropdown">
+            <button class="dropbtn">Hobbies</button>
+            <div class="dropdown-content">
+                <a href="https://www.thesprucecrafts.com/advanced-crochet-978660">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.mcycqpFEjXWvi_LRHTNNowHaFj&pid=Api&P=0&h=180" alt="Crocheting" width="50" height="50"> Crocheting
+                </a>
+                <a href="https://www.colleenhoover.com/">
+                    <img src="https://sp.yimg.com/ib/th?id=OPHS.xnWRx2lNEbU%2fDw474C474&o=5&pid=21.1&w=160&h=105" alt="Reading" width="50" height="50"> Reading
+                </a>
+                <a href="https://www.foodnetwork.com/">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.wYNxTWqRAZG4L4sirlwsaQHaE8&pid=Api&P=0&h=180" alt="Cooking" width="50" height="50"> Cooking
+                </a>
+                
+            </div>
+        </div>
+
+
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out if you'd like to connect or discuss anything related to PDF remediation, tech, or
+            data analysis! Kindly provide your information in the fields below.</p>
+        <form onsubmit="return validateForm()">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <input type="submit" value="Submit">
+
+        </form>
+
+        <script>
+            function validateForm() {
+                var name = document.getElementById("name").value;
+                var email = document.getElementById("email").value;
+                if (name == "" || email == "") {
+                    alert("Name and email must be filled out");
+                    return false;
+                }
+            }
+        </script>
+
+    </section>
+
+    <footer>
+        <p>2024 Created by Mercedes Alvarado. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

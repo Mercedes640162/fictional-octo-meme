@@ -1,0 +1,87 @@
+/* Mercedes Alvarado CSS Code */
+
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #81DFDD; /* Light gray background */
+    color: #000; /* Dark gray text color */
+}
+
+header {
+    background-color: #259693; /* Blue header background */
+    color: #000; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #2CB5B2; /* Orange navbar background */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #000; /* White text color */
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 20px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+nav a:hover {
+    background-color: #fff; /* Darker orange on hover */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* White dropdown background */
+    min-width: 100px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1); /* Soft shadow */
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333; /* Dark gray text color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.dropdown-content a:hover {
+    background-color: #f8f9fa; /* Light gray on hover */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff; /* White section background */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow */
+}
+
+footer {
+    background-color: #259693; /* Blue footer background */
+    color: #000; /* White text color */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+section:last-child {
+    margin-bottom: 100px;
+}
